@@ -1,0 +1,353 @@
+/* Стили для мобильных устройств */
+@media screen and (max-width: 575px) {
+    .promo h1{
+        font-size: 50px !important;
+        line-height: 0.8;
+    }
+
+    .promo_h3{
+        margin-top: 30px;
+    }
+
+    .container1_promo{
+        padding: 40px 20px 40px 20px !important;
+    }
+
+    .container2_my{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        height: auto !important;
+    }
+
+    .container2_small{
+        width: 100% !important;
+        height: 40vh !important;
+    }
+
+    .container2_big{
+        width: 100% !important;
+        height: 30vh !important;
+    }
+
+    .container2_big:nth-child(2){
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .container2_big:nth-child(3){
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+
+    .container2_small:nth-child(4){
+        margin-top: 20px;
+    }
+
+    .container2_small_img_1{
+        background: url("../img/chair.png");
+        height: 55%;
+        width: 35%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_small_img_2{
+        background: url("../img/shkaf.png");
+        height: 65%;
+        width: 45%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_big_img_1 {
+        background: url("../img/divan.png");
+        height: 60% !important;
+        width: 90% !important;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_big_img_2 {
+
+        height: 60% !important;
+        width: 90% !important;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container3{
+        background: url("../img/container3_fon_min.png") !important;
+    }
+
+    .container3_content{
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .contact-form{
+        width: 100% !important;
+    }
+
+    .container4{
+        height: auto !important;
+    }
+
+    .container4_content{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .container4_contact{
+        width: 100% !important;
+    }
+
+    .item_content{
+        flex-direction: column !important;
+    }
+
+    .item_content_img{
+        width: 90% !important;
+    }
+
+    .item_content_text{
+        width: 90%!important;
+        padding-left: 0!important;
+        text-align: center;
+    }
+
+    .contact-form1{
+        width: 100%!important;
+    }
+
+    .reviews_content{
+        width: auto!important;
+    }
+
+    .container3_content_contact{
+        width: auto!important;
+    }
+
+    .container3_contact {
+        background: url("../img/contact_form1.png") !important;
+    }
+}
+
+/* Стили для планшетов и мобильных устройств в альбомной ориентации */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .promo h1{
+        font-size: 50px !important;
+        line-height: 0.8;
+    }
+    .promo_h3{
+        margin-top: 40px;
+    }
+
+    .container2_my{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+        height: auto !important;
+    }
+
+    .container2_small{
+        width: 100% !important;
+        height: 40vh !important;
+    }
+
+    .container2_big{
+        width: 100% !important;
+        height: 30vh !important;
+    }
+
+    .container2_big:nth-child(2){
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .container2_big:nth-child(3){
+        margin-top: 20px;
+        margin-left: 0 !important;
+    }
+
+    .container2_small:nth-child(4){
+        margin-top: 20px;
+    }
+
+    .container2_small_img_1{
+        background: url("../img/chair.png");
+        height: 55%;
+        width: 35%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_small_img_2{
+        background: url("../img/shkaf.png");
+        height: 65%;
+        width: 45%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_big_img_1 {
+        background: url("../img/divan.png");
+        height: 60% !important;
+        width: 90% !important;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container2_big_img_2 {
+
+        height: 60% !important;
+        width: 90% !important;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+
+    .container3{
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background: url("../img/container3_fon_min.png") !important;
+    }
+
+    .container3_content{
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .contact-form{
+        width: 100% !important;
+    }
+
+    .container4{
+        height: auto !important;
+    }
+
+    .container4_content{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .container4_contact{
+        width: 100% !important;
+    }
+}
+
+/* Стили для планшетов и маленьких настольных компьютеров */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .promo{
+        background: url("../img/fon1990.png") !important;
+        max-width: 100%; !important;
+        height: auto; !important;
+    }
+
+    .promo h1{
+        font-size: 70px !important;
+    }
+
+    .promo_h3{
+        margin-top: 20px;
+    }
+
+    .promo a{
+        margin-top: 10px;
+        font-size: 23px !important;
+        padding: 10px 20px 10px 20px;
+        text-transform: uppercase;
+        font-family: 'Circe';
+        font-weight: 300;
+    }
+
+    .container3{
+        background: url("../img/container3_fon1200.png") !important;
+    }
+
+    .container3_content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+/* Стили для настольных компьютеров среднего размера */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .promo{
+        background: url("../img/fon1990.png") !important;
+        max-width: 100%; !important;
+        height: auto; !important;
+    }
+
+    .promo h1{
+        font-size: 100px !important;
+    }
+
+    .promo a{
+        margin-top: 10px;
+        font-size: 23px !important;
+        padding: 10px 20px 10px 20px;
+        text-transform: uppercase;
+        font-family: 'Circe';
+        font-weight: 300;
+    }
+
+    .container3{
+        background: url("../img/container3_fon1200.png") !important;
+    }
+
+    .container3_content{
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Circe' !important;
+        font-weight: 400;
+        font-size: 22px;
+        color: black;
+    }
+
+
+}

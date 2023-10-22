@@ -1,0 +1,875 @@
+@import "../fonts/fonts.css";
+@import "media.css";
+
+
+body {
+    background-color: #F5F5F5;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+/*------Header-------*/
+
+header {
+    background-color: white;
+}
+
+.logo_img {
+    background: url("../img/logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 60px;
+}
+
+.my_a {
+    position: relative;
+    display: inline-block;
+    line-height: 20px;
+    font-family: 'Circe';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.my_a:hover {
+    color: #555;
+}
+
+.my_a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 17%;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s;
+}
+
+.my_a:hover::after {
+    width: 70%;
+}
+
+/*---------Promo---------*/
+.promo {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/fon1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.promo_h1 {
+    position: relative;
+    top: 15%;
+    font-family: 'bodoni';
+    font-style: normal;
+}
+
+.promo_h3 {
+    padding-top: 95px;
+    color: white;
+
+    font-family: 'Circe';
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.promo a {
+    margin-top: 20px;
+    font-size: 28px;
+    padding: 15px 30px 10px 30px;
+    text-transform: uppercase;
+    font-family: 'Circe';
+    font-weight: 300;
+
+}
+
+/*------Container1-------*/
+.my_h5 {
+    font-family: 'Circe';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container1_promo {
+    text-align: center;
+    padding: 40px 100px 40px 80px;
+    background-color: #dbedef;
+    position: relative;
+    top: -10vh;
+}
+
+/*--------Container2--------*/
+
+.container2_my {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2_small {
+    width: 35%;
+    height: 40vh;
+    background-color: #f5f7f8;
+    border: 5px solid #f5f7f8;
+    transition: background-color 0.5s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.container2_small:hover {
+    background-color: #ffffff;
+    border-color: #f5f7f8;
+}
+
+.container2_small:hover .container2_small_img_1 {
+    height: 57%;
+    width: 37%;
+}
+
+.container2_small:hover .container2_small_img_2 {
+    height: 67%;
+    width: 47%;
+}
+
+.container2_big {
+    width: 63%;
+    height: 40vh;
+    background-color: #f5f7f8;
+    border: 5px solid #f5f7f8;
+    transition: background-color 0.5s, border-color 0.3s;
+    cursor: pointer;
+}
+
+.container2_big:hover {
+    background-color: #ffffff;
+    border-color: #f5f7f8;
+}
+
+.container2_big:hover .container2_big_img_1 {
+    height: 62%;
+    width: 62%;
+}
+
+.container2_big:hover .container2_big_img_2 {
+    height: 62%;
+    width: 62%;
+}
+
+
+.container2_big:nth-child(2) {
+    margin-left: 1.99%;
+}
+
+.container2_big:nth-child(3) {
+    margin-top: 20px;
+    margin-right: 1.99%;
+}
+
+.container2_small:nth-child(4) {
+    margin-top: 20px;
+}
+
+.container2_small:nth-child(5) {
+    margin-top: 20px;
+}
+
+.container2_big:nth-child(6) {
+    margin-top: 20px;
+    margin-left: 1.99%;
+}
+
+.container2_big:nth-child(7) {
+    margin-top: 20px;
+
+}
+
+.container2_small:nth-child(8) {
+    margin-top: 20px;
+    margin-left: 1.99%;
+}
+
+.container2_small:nth-child(9) {
+    margin-top: 20px;
+
+}
+
+.container2_big:nth-child(10) {
+    margin-top: 20px;
+    margin-left: 1.99%;
+}
+
+
+.container2_small_img_1 {
+    background: url("../img/chair.png");
+    height: 55%;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_small_img_2 {
+    background: url("../img/shkaf.png");
+    height: 65%;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_big_img_1 {
+    background: url("../img/divan.png");
+    height: 60%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_big_img_2 {
+    background: url("../img/comod.png");
+    height: 60%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+/*----------container3---------*/
+
+.container3 {
+    background: url("../img/container3_fon.png");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 87vh;
+    margin-top: 15vh;
+}
+
+.container3_content {
+    margin-left: auto;
+    width: 40%;
+    height: 100%;
+    padding-top: 12%;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 40px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: transparent;
+
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+    font-family: 'Circe';
+    font-weight: 300;
+    font-style: normal;
+
+    transition: background-color 0.3s ease;
+    color: #000000; /* Здесь добавлено свойство для изменения цвета текста */
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ffffff; /* Здесь добавлено свойство для изменения цвета плейсхолдера */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #fff;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+
+    font-family: 'Circe';
+
+
+    transition: background-color 0.5s ease, border 0.5s ease, color 0.5s ease;
+
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #ffffff;
+    color: #001b77;
+}
+
+.container4 {
+    height: 60vh;
+    width: 100%;
+
+}
+
+.container4_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4_contact {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 8%;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.info i {
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+.info li {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none; /* Убираем маркеры */
+    margin-left: 40px;
+}
+
+.map {
+    margin-top: 6%;
+    border: 3px solid #636464;
+    border-radius: 5px;
+}
+
+/*----------footer----------*/
+
+
+footer {
+
+    background-color: #f6f6f6;
+    height: 18vh;
+
+}
+
+.footer_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content a {
+    margin-top: 20px;
+    width: 180px;
+}
+
+.footer_img {
+    background: url("../img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 60px;
+
+}
+
+
+/*---------Catalog-------------*/
+
+.container_catalog {
+    margin: 50px 0 50px 0;
+}
+
+.container_eny {
+    max-width: 100% !important;
+    height: 50vh;
+    border: 5px solid #f5f7f8;
+    transition: background-color 0.5s, border-color 0.3s;
+    cursor: pointer;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.container_eny:hover {
+    background-color: #ffffff;
+    border-color: #f5f7f8;
+}
+
+.container_eny:hover .container_eny_img {
+    transform: scale(1.02);
+}
+
+
+.container_eny_img {
+    position: relative;
+    background: url("../img/eny_chair.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.container_works_img {
+    position: relative;
+    background: url("../img/works.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.container_eny:hover .container_works_img {
+    transform: scale(1.02);
+}
+
+.container2_my h2 {
+    margin-bottom: 0 !important;
+}
+
+.container2_my p {
+    padding-left: 20px;
+}
+
+.container2_small_img_3 {
+    background: url("../img/garnitur.png");
+    height: 65%;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_big_img_3 {
+    background: url("../img/stol.png");
+    height: 60%;
+    width: 45%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_small:hover .container2_small_img_3 {
+    height: 67%;
+    width: 67%;
+}
+
+.container2_big:hover .container2_big_img_3 {
+    height: 62%;
+    width: 47%;
+}
+
+.container2_small_img_4 {
+    background: url("../img/prichojaya.png");
+    height: 65%;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_small:hover .container2_small_img_4 {
+    height: 67%;
+    width: 67%;
+}
+
+
+.container2_big_img_4 {
+    background: url("../img/maxresdefault.png");
+    height: 66%;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_big:hover .container2_big_img_4 {
+    height: 68%;
+    width: 77%;
+}
+
+.container2_small_img_5 {
+    background: url("../img/children.png");
+    height: 65%;
+    width: 65%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_small:hover .container2_small_img_5 {
+    height: 67%;
+    width: 67%;
+}
+
+
+.container2_big_img_5 {
+    background: url("../img/obuv.png");
+    height: 70%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.container2_big:hover .container2_big_img_5 {
+    height: 72%;
+    width: 62%;
+}
+
+
+/*-----------Catalog_list----------*/
+
+.catalog_list {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card img {
+    padding: 40px;
+}
+
+.paginate {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+
+/*-------------item content----------*/
+.item_content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.item_content_img {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_content img {
+    margin-top: 100px;
+    max-width: 100%;
+    height: 50vh;
+}
+
+.item_content_text {
+    padding-left: 50px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item_content_text h2 {
+    font-family: 'Circe' !important;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.item_content_text h3 {
+    font-family: 'Circe' !important;
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.item_content_text h5 {
+    padding-left: 20px;
+    font-weight: 300;
+    color: #636464;
+}
+
+/*--------------Admin_panel---------------*/
+.nav_items {
+    min-height: 64vh;
+    padding-left: 50px !important;
+}
+
+.navbar .container-fluid {
+    padding-left: 0 !important;
+}
+
+.navbar button {
+    border: none !important;
+    background-color: #f8f9fa;
+}
+
+.navbar button:hover {
+    color: black !important;
+}
+
+#block2 .item_content {
+    width: 100% !important;
+}
+
+#block2 h3 {
+    padding-bottom: 10px;
+}
+
+#block2 .item_content_text button {
+    width: 90%;
+    margin-left: 20px;
+}
+
+#block3 .item_content_text button {
+    width: 90%;
+    margin-left: 20px;
+}
+
+/*-----contact------*/
+.promo_contact {
+    width: 100%;
+    height: 50vh;
+    background: url("../img/contact_fon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container3_contact {
+    background: url("../img/contact_form.png");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 75vh;
+    margin-top: 10vh;
+}
+
+.container3_content_contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    color: white;
+}
+
+.container3_content_contact_btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*-------Форма для товара--------*/
+
+
+.contact-form1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+}
+
+.contact-form1 input,
+.contact-form1 textarea {
+    background-color: transparent;
+
+    border: 3px solid #505050;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+    font-family: 'Circe';
+    font-weight: 300;
+    font-style: normal;
+
+    transition: background-color 0.3s ease;
+    color: #000000; /* Здесь добавлено свойство для изменения цвета текста */
+}
+
+.contact-form1 textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form1 input::placeholder,
+.contact-form1 textarea::placeholder {
+    color: #505050; /* Здесь добавлено свойство для изменения цвета плейсхолдера */
+}
+
+.contact-form1 input:focus,
+.contact-form1 textarea:focus {
+    background-color: #fff;
+    outline: none;
+}
+
+.contact-form1 button {
+    background-color: transparent;
+    border: 3px solid #505050;
+    width: 50%;
+    color: #505050;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Circe';
+    transition: background-color 0.5s ease, border 0.5s ease, color 0.5s ease;
+
+    font-weight: bold;
+}
+
+.contact-form1 button:hover {
+    background-color: #ffffff;
+    color: #001b77;
+}
+
+
+/*-----------Страница отзывов------------*/
+.reviews_content{
+    display: flex;
+    width: 60%;
+    margin-top: 50px;
+
+}
+
+.reviews_content:nth-child(even){
+    margin-left: auto;
+
+}
+
+.reviews_content_img{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reviews_content_img i{
+    font-size: 50px;
+}
+
+.reviews_content_img h3{
+    padding: 0!important;
+
+}
+
+.reviews_content_text{
+    width: 79%;
+    padding-left: 30px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+
+}
+
+.reviews_content_text h5{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.reviews_content_text:nth-child(even){
+    text-align: left!important;
+}
+
+/*--------Works--------*/
+.my_card{
+    width: 70%;
+}
+
+.card img {
+    padding: 10px !important;
+}
+
+.my_card{
+    border-bottom: 1px solid black !important;
+    border-top: none !important;
+    border-left: none!important;
+    border-right: none!important;
+    border-radius: unset!important;
+}
